@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AppAplication",
+            "request": "launch",
+            "mainClass": "com.educaweb.AppAplication",
+            "projectName": "olamundo"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.com.juliano.sistemaerp.demo.DemoApplication",
+            "projectName": "demo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-OlamundoApplication<olamundo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.educaweb.olamundo.OlamundoApplication",
+            "projectName": "olamundo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
